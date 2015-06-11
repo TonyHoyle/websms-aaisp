@@ -9,4 +9,4 @@ Does not work:
 
 These are probably fixable but as the plugin had about 3 users I'll leave it to others who care enough.
 
-# Any binaries purporting to be this plugin are probably fake - beware of malware.  This plugin has never been shipped outside the play store.
+### Any binaries purporting to be this plugin are probably fake - beware of malware.  This plugin has never been shipped outside the play store.
