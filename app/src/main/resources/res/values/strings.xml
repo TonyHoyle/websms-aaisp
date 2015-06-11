@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AAISP</string>
+    <string name="app_author">Tony Hoyle &lt;tony@hoyle.me.uk&gt;</string>
+    <string name="prefUsername">Username</string>
+    <string name="prefUsernameExp">Override Username. Normally not needed.</string>
+    <string name="prefPassword">Password</string>
+    <string name="prefPasswordExp">VOIP Outgoing password</string>
+    <string name="prefEnabled">Enabled</string>
+    <string name="prefOrigin">Originator</string>
+    <string name="prefOriginExp">Override sending number. Normally not needed.</string>
+    <string name="prefDelivery">Delivery report</string>
+    <string name="prefDeliveryExp">Email address to send delivery report to</string>
+</resources>

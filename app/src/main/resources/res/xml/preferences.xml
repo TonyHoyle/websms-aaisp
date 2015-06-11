@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="AAISP">
+		<CheckBoxPreference android:key="prefEnabled"
+			android:title="@string/prefEnabled" />
+
+		<EditTextPreference android:key="prefUsername"
+			android:title="@string/prefUsername" android:dialogMessage="@string/prefUsernameExp"
+			android:dialogTitle="@string/prefUsername" android:dependency="prefEnabled" android:inputType="number"/>
+
+		<EditTextPreference android:key="prefPassword"
+			android:title="@string/prefPassword" android:dialogMessage="@string/prefPasswordExp"
+			android:dialogTitle="@string/prefPassword" android:dependency="prefEnabled" android:inputType="textPassword"/>
+
+		<EditTextPreference android:key="prefOrigin"
+			android:title="@string/prefOrigin" android:dialogMessage="@string/prefOriginExp"
+			android:dialogTitle="@string/prefOrigin" android:dependency="prefEnabled" android:inputType="number"/>
+			
+		<EditTextPreference android:key="prefDelivery"
+			android:title="@string/prefDelivery" android:dialogMessage="@string/prefDeliveryExp"
+			android:dialogTitle="@string/prefDelivery" android:dependency="prefEnabled" android:inputType="textEmailAddress"/>
+
+	</PreferenceCategory>
+			
+</PreferenceScreen>
+  
