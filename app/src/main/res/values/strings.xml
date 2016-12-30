@@ -8,7 +8,7 @@
     <string name="prefPasswordExp">VOIP Outgoing password</string>
     <string name="prefEnabled">Enabled</string>
     <string name="prefOrigin">Originator</string>
-    <string name="prefOriginExp">Override sending number. Normally not needed.</string>
+    <string name="prefOriginExp">Override sending address. Normally not needed. Must be one of the presentation entries on your account. Numbers must start with a +.</string>
     <string name="prefDelivery">Delivery report</string>
     <string name="prefDeliveryExp">Email address to send delivery report to</string>
 </resources>
