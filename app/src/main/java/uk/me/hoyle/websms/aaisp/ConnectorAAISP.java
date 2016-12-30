@@ -17,7 +17,7 @@ import de.ub0r.android.websms.connector.common.Utils;
 import de.ub0r.android.websms.connector.common.WebSMSException;
 
 public final class ConnectorAAISP extends BasicConnector {
-	private static final String SMS_URL = "http://sms.aaisp.net.uk/sms.cgi";
+	private static final String SMS_URL = "https://sms.aa.net.uk/sms.cgi";
 
 	@Override
 	protected String getUrlSend(ArrayList<BasicNameValuePair> d) {
@@ -41,17 +41,17 @@ public final class ConnectorAAISP extends BasicConnector {
 
 	@Override
 	protected String getParamRecipients() {
-		return "destination";
+		return "da";
 	}
 
 	@Override
 	protected String getParamText() {
-		return "message";
+		return "ud";
 	}
 
 	@Override
 	protected String getParamSender() {
-		return "origin";
+		return "oa";
 	}
 	
 	@Override
@@ -111,7 +111,7 @@ public final class ConnectorAAISP extends BasicConnector {
         .getDefaultSharedPreferences(context);
 		String report = p.getString(Preferences.PREFS_DELIVERY_REPORT, "");
 		if(report.length()>0) {
-			d.add(new BasicNameValuePair("report", p.getString(Preferences.PREFS_DELIVERY_REPORT, "")));
+			d.add(new BasicNameValuePair("srr", p.getString(Preferences.PREFS_DELIVERY_REPORT, "")));
 		}
 	}
 

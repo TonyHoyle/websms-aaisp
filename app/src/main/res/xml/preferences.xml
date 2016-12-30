@@ -15,7 +15,7 @@
 
 		<EditTextPreference android:key="prefOrigin"
 			android:title="@string/prefOrigin" android:dialogMessage="@string/prefOriginExp"
-			android:dialogTitle="@string/prefOrigin" android:dependency="prefEnabled" android:inputType="number"/>
+			android:dialogTitle="@string/prefOrigin" android:dependency="prefEnabled" android:inputType="text"/>
 			
 		<EditTextPreference android:key="prefDelivery"
 			android:title="@string/prefDelivery" android:dialogMessage="@string/prefDeliveryExp"
